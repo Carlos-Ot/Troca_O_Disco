@@ -2,7 +2,7 @@ var feedReader = require('./feed/feedReader.js');
 var schedule = require('node-schedule');
 var cache = require('memory-cache');
 const TeleBot = require('telebot');
-const bot = new TeleBot('273910408:AAEw3uBjAh6ltWDUkFm1OuSL9DYlRWJiVTY');
+const bot = new TeleBot(<BOT_API_TOKEN_HERE>);
 
 var userController = require('./persistence/controllers/userController.js');
 var podcastsController = require('./persistence/controllers/podcastsController.js');
