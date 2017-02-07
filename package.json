@@ -1,0 +1,26 @@
+{
+  "name": "troca_o_disco",
+  "version": "1.0.0",
+  "description": "feed reader for Troca o Disco RSS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rss",
+    "feed",
+    "reader",
+    "troca",
+    "disco"
+  ],
+  "author": "Carlos Ottoboni",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "date-and-time": "^0.4.0",
+    "feed-reader": "^1.1.16",
+    "memory-cache": "^0.1.6",
+    "mysql": "^2.12.0",
+    "node-schedule": "^1.2.0",
+    "telebot": "^1.0.6"
+  }
+}

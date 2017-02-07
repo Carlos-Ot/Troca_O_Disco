@@ -1,0 +1,7 @@
+help - Listar comandos
+subscribe - Assinar o bot
+unsubscribe - Sair do bot
+last_cast - Último programa
+last_review - Último Álbum Review
+casts - Últimos 5 Programas
+reviews - Últimos 5 Álbum Review
